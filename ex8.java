@@ -1,10 +1,10 @@
 public class ex8 {
-    public enum colors  {
-        red, blue, green, yellow}
+    enum Colors  {
+        RED, BLUE, GREEN, YELLOW}
 
 
     public static void main (String[] args) {
-    colors myFavoriteColor=colors.green;
+    Colors myFavoriteColor=Colors.GREEN;
     System.out.println(myFavoriteColor);
     }
 }
